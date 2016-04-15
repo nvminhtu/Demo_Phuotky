@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>jQuery Fixed top Menu</title>
+	<title>On/Off Image when hover</title>
   <link rel="stylesheet" href="../highlighter/dessert.css" />
   <!-- Optional theme -->
   <!-- Latest compiled and minified CSS -->
@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="/jquery-collection/">jQuery Collection</a></li>
-          <li class="active"><a href="/jquery-collection/12-jquery-video-background/index.html">jQuery Video background</a></li>
+          <li class="active"><a href="/jquery-collection/16-on-off-image/index.html">jQuery On/Off image when hover</a></li>
         </ul>
       </div>
     </div>
@@ -32,31 +32,24 @@
 
   <div class="jumbotron">
     <div class="container text-center">
-      <h1 id="top">Video Background using Youtube API</h1>
-      <p>This script using Video background from Youtube API</p>
+      <h1 id="top">jQuery On/Off image when hover</h1>
+      <p>This script </p>
       <pre class="prettyprint">
-        Reference file <strong>js/jquery.backgroudvideo.js</strong> which is using in this site.
+          + Place name image with suffix _off, It will be changed to _on image when hover.
+          + Add class="current" to image which you don't want to change when hover.
       </pre>
     </div>
   </div>
   
-  <div class="container-flui">
-    <div class="main_video">
-      <div id="bros_player">
-        <div id="bros_video"><!-- /#bros_video --></div>
-        <div class="video_overlay">
-            <div class="controler">
-              <a href="#" class="sound_ico"><img src="img/ico-volume_off.png" height="29" width="23" alt="Mute"></a>
-            <!-- /.controler --></div>
-          <!-- /.video_overlay --></div>
-      <!-- /#bros_player --></div>
-    <!-- /.main_video --></div>
+  <div class="container-fluid">
+    <a href="#"><img src="img/bnr-top_itemguide_off.png" height="91" width="284" alt=""></a>
+    <a href="#"><img src="img/bnr-top_yobou_cam_off.png" height="84" width="284" alt="" class="current"></a>
   <!-- /.container-flui --></div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="js/jquery.backgroudvideo.js" type="text/javascript"></script>
+  <script src="js/hoverOnOff.js" type="text/javascript"></script>
   <script src="../highlighter/prettify.js"></script>
 </body>
 </html>
